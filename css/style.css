@@ -107,7 +107,7 @@ body {
 
 .bg {
   width: 100%;
-  background: url("../../assets/bg/bg.png");
+  background: url("../assets/bg/bg.png");
 }
 
 h2 {
@@ -254,7 +254,7 @@ a:hover {
 }
 
 .about {
-  background: url("../../assets/bg/bg_about.jpg") no-repeat;
+  background: url("../assets/bg/bg_about.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
