@@ -1,0 +1,59 @@
+.contacts {
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	height: 100vh;
+	width: 50px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+
+	padding-bottom: 50px;
+
+	backdrop-filter: blur(5px);
+
+	// .contacts__title
+
+	// &__title {
+	// 	transform: rotate(-90deg);
+	// 	// margin-left: 20px;
+	// }
+
+	// .contacts__content
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		// margin-top: 20px;
+	}
+
+	// .contacts__icon
+
+	&__icon {
+		
+		margin-top: 20px;
+		
+	}
+}
+// .fa-solid {
+// }
+// .fa-square-phone {
+// }
+// .fa-square-envelope {
+// }
+// .fa-brands {
+// }
+// .fa-square-github {
+// }
+// .fa-telegram {
+// }
+// .fa-discord {
+// }
+// .fa-linkedin {
+// }
