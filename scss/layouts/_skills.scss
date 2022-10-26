@@ -1,0 +1,44 @@
+.skills {
+
+	
+
+	// .skills__content
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		// .skills__col
+
+		&__col {
+			flex-basis: 30%;
+		}
+}
+.skill {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:first-of-type{
+		align-items: flex-start;
+	}
+	&:last-of-type{
+		align-items: flex-end;
+	}
+
+		// .skill__title
+
+		&__title {
+			font-size: 25px;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+		}
+
+		// .skill__item
+
+		&__item {
+			
+		}
+}
