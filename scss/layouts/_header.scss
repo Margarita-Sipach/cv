@@ -1,0 +1,46 @@
+.header {
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 3;
+
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 50px;
+	
+	backdrop-filter: blur(5px);
+
+	// .header__col
+
+	&__col {
+	}
+
+	// .header__contacts
+
+	&__contacts {
+		font-size: 15px;
+		margin-bottom: 5px;
+		i{
+			margin-right: 5px;
+		}
+	}
+}
+.nav {
+
+	display: flex;
+
+	// .nav__item
+
+	&__item {
+		margin-left: 25px;
+
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
